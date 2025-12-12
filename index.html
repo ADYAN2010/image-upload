@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Uploader Zone</title>
+</head>
+<body>
+
+  <img src="https://c.tenor.com/KIy1yJZYtUcAAAAC/tenor.gif" class="gifGirl">
+
+  <div class="intro">
+    <p class="animeText">Hi I am your anime girl guide</p>
+    <p class="devText">Website developed by Adyan</p>
+  </div>
+
+  <div class="card">
+
+    <h1 class="fadeSlide">Uploader Zone</h1>
+
+    <label class="uploadBox">
+      <input type="file" id="imageInput" accept="image/*">
+      <span>Upload Image</span>
+    </label>
+
+    <label class="uploadBox">
+      <input type="file" id="videoInput" accept="video/*">
+      <span>Upload Video</span>
+    </label>
+
+    <button id="saveBtn">Save Files</button>
+
+    <h2>Preview</h2>
+
+    <img id="storedImage" src="" alt="" style="display:none">
+
+    <video id="storedVideo" controls style="display:none"></video>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
